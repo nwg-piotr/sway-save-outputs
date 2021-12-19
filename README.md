@@ -15,4 +15,4 @@ include ~/.config/sway/outputs
 
 `wdisplays && sway-save-outputs`
 
-to save current sway outputs configuration to a text file.
+The script reads the current output configuration, with a little help from the `python-i3ipc` module (dependency!), and saves it to `~/.config/sway/outputs`.
