@@ -8,7 +8,7 @@ def read(f_name):
 
 setup(
     name='sway-save-outputs',
-    version='0.0.1',
+    version='0.1',
     description='script to save current sway outputs configuration to a text file',
     packages=find_packages(),
     include_package_data=True,
