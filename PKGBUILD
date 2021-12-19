@@ -4,7 +4,7 @@
 pkgname=('archlabs-sway-save-outputs')
 pkgver=0.1
 pkgrel=1
-pkgdesc="script to save current sway outputs configuration to a text file"
+pkgdesc="Save current sway outputs configuration to a text file"
 arch=('x86_64')
 url="https://github.com/nwg-piotr/sway-save-outputs"
 license=('MIT')
