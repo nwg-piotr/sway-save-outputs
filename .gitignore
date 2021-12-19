@@ -1,0 +1,5 @@
+/.idea
+/venv
+/sway_save_outputs.egg-info/
+/build/
+/dist/
