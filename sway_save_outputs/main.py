@@ -67,7 +67,8 @@ def main():
             outputs.append('    scale {}'.format(outputs_dict[key]["scale"]))
         outputs.append("}")
 
-    print("Saving to {}-".format(args.file))
+    print("Saving to {}".format(args.file))
+    save_list_to_text_file(outputs, args.file)
 
 
 if __name__ == '__main__':
