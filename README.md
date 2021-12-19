@@ -16,3 +16,16 @@ include ~/.config/sway/outputs
 `wdisplays && sway-save-outputs`
 
 The script reads the current output configuration, with a little help from the `python-i3ipc` module (dependency!), and saves it to `~/.config/sway/outputs`.
+
+## Arguments
+
+```text
+$ sway-save-outputs -h
+usage: sway-save-outputs [-h] [-f FILE] [-v]
+
+options:
+  -h, --help            show this help message and exit
+  -f FILE, --file FILE  full path to save outputs to; default:
+                        /home/piotr/.config/sway/outputs
+  -v, --version         display version information
+```
